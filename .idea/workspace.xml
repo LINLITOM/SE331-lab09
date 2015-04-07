@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="431a1eab-1091-4506-80db-65cffea03130" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab09.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,118 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="setup.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/setup.properties">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="731">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Product.java">
+      <file leaf-file-name="DatabaseInitializationBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1462">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#367#368#0" expanded="false" />
-                <element signature="e#392#393#0" expanded="false" />
-                <element signature="e#426#427#0" expanded="false" />
-                <element signature="e#454#455#0" expanded="false" />
-                <element signature="e#519#520#0" expanded="false" />
-                <element signature="e#594#595#0" expanded="false" />
-                <element signature="e#623#624#0" expanded="false" />
-                <element signature="e#649#650#0" expanded="false" />
-                <element signature="e#1862#1863#0" expanded="false" />
-                <element signature="e#1889#1890#0" expanded="false" />
-                <element signature="e#1929#1930#0" expanded="false" />
-                <element signature="e#1961#1962#0" expanded="false" />
-                <element signature="e#1999#2000#0" expanded="false" />
-                <element signature="e#2033#2034#0" expanded="false" />
-                <element signature="e#2087#2088#0" expanded="false" />
-                <element signature="e#2133#2134#0" expanded="false" />
-                <element signature="e#2170#2171#0" expanded="false" />
-                <element signature="e#2203#2204#0" expanded="false" />
-                <element signature="e#2255#2256#0" expanded="false" />
-                <element signature="e#2299#2300#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.91604936" vertical-offset="71" max-vertical-offset="612">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersistenceContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbProductDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62222224" vertical-offset="394" max-vertical-offset="799">
-              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-              <folding>
-                <element signature="e#1385#1386#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,6 +70,9 @@
         <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java" />
       </list>
     </option>
   </component>
@@ -305,37 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shoppingcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -714,12 +591,12 @@
       <workItem from="1428375062473" duration="3090000" />
       <workItem from="1428380955656" duration="6029000" />
       <workItem from="1428405577609" duration="3369000" />
-      <workItem from="1428415272675" duration="5720000" />
+      <workItem from="1428415272675" duration="8674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18208000" />
+    <option name="totallyTimeSpent" value="21162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1292" height="776" extended-state="0" />
@@ -1037,14 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33580247" vertical-offset="0" max-vertical-offset="646">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="1462">
@@ -1075,39 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message_fr.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/message_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1146,13 +986,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/entity/VatEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="459">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/template/leftnav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44854882" vertical-offset="0" max-vertical-offset="379">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/message_fr.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="731">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/dao/DbProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62222224" vertical-offset="394" max-vertical-offset="799">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.7061728" vertical-offset="394" max-vertical-offset="799">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="e#1385#1386#0" expanded="true" />
             <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="731">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/DatabaseInitializationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91604936" vertical-offset="71" max-vertical-offset="612">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
