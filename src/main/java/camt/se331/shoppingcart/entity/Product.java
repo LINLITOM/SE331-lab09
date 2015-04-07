@@ -95,4 +95,10 @@ public class Product implements Comparable{
 
         return (int) (this.getId() - ((Product)o).getId());
     }
+
+    @Entity
+    public class Product implements Comparable{
+        @Id
+        @GeneratedValue
+    }
 }
