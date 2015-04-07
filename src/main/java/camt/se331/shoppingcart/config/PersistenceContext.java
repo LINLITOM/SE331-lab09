@@ -79,7 +79,31 @@ class PersistenceContext {
     @Bean
     @Autowired
     public EntityManagerFactory entityManagerFactory(DataSource dataSource){
+HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
+        vendorAdapter.setGenerateDdl(true);
+        vendorAdapter.setShowSql(false);
 
+        LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
+        factory.setJpaVendorAdapter(vendorAdapter);
+        factory.setPackagesToScan(ENTITY_PACKAGES);
+        factory.setDataSource(dataSource);
+        Properties jpaProperties =new Properties();
+        jpaProperties.put(PROPERTY_NAME_HIBERNATE_DIALECT,env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_DIALECT));
+        jpaProperties.put(PROPERTY_NAME_HIBERNATE_HBM2DDL_AUTO,env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_HBM2DDL_AUTO));
+        jpaProperties.put(PROPERTY_NAME_HIBERNATE_SHOW_SQL,env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_SHOW_SQL));
+        jpaProperties.put(PROPERTY_NAME_HIBERNATE_FORMAT_SQL,env.getRequiredProperty(PROPERTY_NAME_HIBERNATE_FORMAT_SQL));
+        factory.setJpaProperties(jpaProperties);
+        factory.afterPropertiesSet();
+        return factory.getObject();
+    }
+    @Bean
+    @Autowired
+    public JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory){
+        JpaTransactionManager txManager = new JpaTransactionManager();
+        JpaDialect jpaDialect =new HibernateJpaDialect();
+        txManager.setEntityManagerFactory(entityManagerFactory);
+        txManager.setJpaDialect(jpaDialect);
+        return txManager;
     }
 
 }

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="431a1eab-1091-4506-80db-65cffea03130" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java" afterPath="$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab09.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +117,8 @@
       <file leaf-file-name="PersistenceContext.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83468395" vertical-offset="590" max-vertical-offset="1207">
-              <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9437086" vertical-offset="892" max-vertical-offset="1615">
+              <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="e#2720#2721#0" expanded="true" />
                 <element signature="e#2769#2770#0" expanded="true" />
@@ -586,12 +585,12 @@
       <option name="number" value="Default" />
       <updated>1428375052550</updated>
       <workItem from="1428375062473" duration="3090000" />
-      <workItem from="1428380955656" duration="2558000" />
+      <workItem from="1428380955656" duration="3547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5648000" />
+    <option name="totallyTimeSpent" value="6637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
@@ -826,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/camt/se331/shoppingcart/config/PersistenceContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83468395" vertical-offset="590" max-vertical-offset="1207">
-          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9437086" vertical-offset="892" max-vertical-offset="1615">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
           <folding>
             <element signature="e#2720#2721#0" expanded="true" />
             <element signature="e#2769#2770#0" expanded="true" />
